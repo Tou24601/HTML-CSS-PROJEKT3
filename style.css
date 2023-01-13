@@ -2,15 +2,16 @@ body {
     background-color: rgb(248, 251, 254);
     font-family: ;
     color: #212353;
+    padding-left: 15vw;
 }
 a:link, a:visited {
     text-decoration: none;
     color: #4B5D68;
 }
-/*a:focus {
+a:target {
     font-weight: 800;
     color: #212353;
-}*/
+}
 header {
     width: 100vw;
     height: 140px;
@@ -22,18 +23,13 @@ header {
 .logo-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo {
     display: flex;
     flex-direction: row;
     gap: 9px;
     align-items: baseline;
-}
-.Rectangle32 {
-    width: 20px;
-    aspect-ratio: 1 /1;
-    background-color: #9C69E2;
-    border-radius: 50%;
 }
 .nav li {
     list-style-type: none;
@@ -49,22 +45,42 @@ header {
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     display: flex;
 }
-.arrow {
-    border: 2px solid #9C69E2;
-    display: grid;
+.about {
+    width: 100vw;
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: row;
 }
-.arrow-vertical {
-    height: 0;
-    width: 20px;
-    
+.about .about-left {
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
-.arrow-upper {
-    height: 0px;
-    width: 14px;
-    transform: rotate(90deg);
+.about .about-left .header {
+    width: 40vw;
+    font-style: helvetica;
+    font-weight: 700;
+    font-size: 80px;
 }
-.arrow-bottom {
-    height: 0px;
-    width: 7px;
-    transform: rotate(20deg);
+.about .about-left .aboutText {
+    width: 380px; 
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.about .about-left .learn-more {
+    width: 170px;
+    height: 60px;
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-weight: 800;
+    font-size: 18px;
+    background-color: #9C69E2;
+    border: none;
+    border-radius: 50px;
+}
+.about .image1 {
+    height: 465px;
 }

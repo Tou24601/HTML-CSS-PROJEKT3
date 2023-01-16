@@ -70,6 +70,10 @@ header {
     justify-content: center;
     align-items: center;
 }
+.polygon_1 {
+    position: absolute;
+    padding-left: 18px;
+}
 .opening {
     width: 1248px;
     height: calc(100vh - 140px);
@@ -107,28 +111,118 @@ header {
     border-radius: 50px;
 }
 .about {
-    height: 560px;
     background-color: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     display: flex;
     flex-direction: row;
     margin-bottom: 149.82px;
 }
-.about-text {
-    margin: 125px 92px 125px 62px;
-}
 .helvetica-header {
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
-    padding-bottom: 40px;
+}
+.image2 {
+    width: 477px;
+    height: 504px;
+    padding: 31.82px 0px 24.18px 11px;
+}
+.about-header {
+    padding: 125px 92px 40px 62px;
+}
+.about-p {
+    padding: 0px 93px 125px 62px;
 }
 .features .features-titles {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 .features .features-titles .features-lead {
     width: 584px;
     text-align: center;
+}
+.features-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-box {
+    width: 32vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29.29px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 50px;
+}
+.search-data {
+    background-image: url("Rectangle39.png");
+}
+.hours-access {
+    background-image: url("Rectangle2.png");
+}
+.print-out {
+    background-image: url("Rectangle3.png");
+}
+.security-code {
+    background-image: url("Rectangle4.png");
+}
+.image3 {
+    width: 232px;
+    height: 211px;
+}
+.image4 {
+    width: 241px;
+    height: 188.49px;
+}
+.image5 {
+    width: 245px;
+    height: 181px;
+}
+.image6 {
+    width: 230px;
+    height: 201px;
+}
+.features-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 138%;
+    padding: 49px 70px 20px 0px;
+}
+.features-para {
+    width: 220px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 50px 20px 0px;
+    margin-bottom: 20px;
+}
+.features-learn-more {
+    border: none;
+    background-color: transparent;
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.features-learn-more-para {
+    font-weight: 800;
+    font-size: 16px;
+    color: #212353;
+}
+.testimonials {
+    width: calc(100vw - 480px);
+    height: 709px;
+    background-color: #9C69E2;
+    border-radius: 50px;
+    margin: 98px 240px 152px 240px;
+}
+.hr {
+    fill: #9C69E2;
 }

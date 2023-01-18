@@ -168,18 +168,61 @@ header {
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 50px;
+    position: relative;
 }
 .search-data {
     background-image: url("Rectangle39.png");
 }
+.search-data::before {
+    content: url("Vector56.png");
+    position: absolute;
+    top: 20px;
+    right: 12.01px;
+    z-index: 1;
+}
+.search-data::after {
+    content: url("Ellipse61.png");
+    position: absolute;
+    top: 43.88px;
+    right: 117.37px;
+    z-index: 1;
+}
 .hours-access {
     background-image: url("Rectangle2.png");
+}
+.hours-access::before {
+    content: url("Vector561.png");
+    position: absolute;
+    top: 148.75px;
+    right: 25px;
+    z-index: 1;
 }
 .print-out {
     background-image: url("Rectangle3.png");
 }
+.print-out::before {
+    content: url("Ellipse611.png");
+    position: absolute;
+    top: 22px;
+    right: 22.96px;
+    z-index: 1;
+}
 .security-code {
     background-image: url("Rectangle4.png");
+}
+.security-code::before {
+    content: url("Vector562.png");
+    position: absolute;
+    top: 6px;
+    right: 64.72px;
+    z-index: 1;
+}
+.security-code::after {
+    content: url("Ellipse612.png");
+    position: absolute;
+    top: 278px;
+    right: 24.22px;
+    z-index: 1;
 }
 .image3 {
     width: 232px;
@@ -196,6 +239,10 @@ header {
 .image6 {
     width: 230px;
     height: 201px;
+    z-index: 1;
+}
+.features-text {
+    z-index: 2;
 }
 .features-title {
     font-weight: 400;

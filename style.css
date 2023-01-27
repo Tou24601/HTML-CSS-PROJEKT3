@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(248, 251, 254);
+    background-color: linear-gradient(rgb(248, 251, 254), #FFFFFF);
     font-family: "Avenir", "Century Gothic", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -18,10 +18,10 @@ a:visited {
     color: #4B5D68;
 }
 .margins {
-    margin: 0px 240px 0px 240px;
+    margin: 0px 240px;
     width: 1120px;
 }
-header {
+nav {
     height: 140px;
     display: flex;
     flex-direction: row;
@@ -61,7 +61,9 @@ header {
 .Request-Demo {
     width: 210px;
     height: 60px;
+    border: none;
     border-radius: 50px;
+    font-family: "Avenir", "Century Gothic", sans-serif;
     font-weight: 800;
     font-size: 16px;
     color: #212353;
@@ -78,6 +80,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 20px;
 }
 .polygon_1 {
     position: absolute;
@@ -89,7 +92,7 @@ header {
     padding-bottom: 100px;
     display: flex;
     flex-direction: row;
-    background-image: url(image1.png);
+    background-image: url(assets/image1.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 885px 468px;
@@ -171,54 +174,54 @@ header {
     position: relative;
 }
 .search-data {
-    background-image: url("Rectangle39.png");
+    background-image: url("assets/Rectangle39.png");
 }
 .search-data::before {
-    content: url("Vector56.png");
+    content: url("assets/Vector56.png");
     position: absolute;
     top: 20px;
     right: 12.01px;
     z-index: 1;
 }
 .search-data::after {
-    content: url("Ellipse61.png");
+    content: url("assets/Ellipse61.png");
     position: absolute;
     top: 43.88px;
     right: 117.37px;
     z-index: 1;
 }
 .hours-access {
-    background-image: url("Rectangle2.png");
+    background-image: url("assets/Rectangle2.png");
 }
 .hours-access::before {
-    content: url("Vector561.png");
+    content: url("assets/Vector561.png");
     position: absolute;
     top: 148.75px;
     right: 25px;
     z-index: 1;
 }
 .print-out {
-    background-image: url("Rectangle3.png");
+    background-image: url("assets/Rectangle3.png");
 }
 .print-out::before {
-    content: url("Ellipse611.png");
+    content: url("assets/Ellipse611.png");
     position: absolute;
     top: 22px;
     right: 22.96px;
     z-index: 1;
 }
 .security-code {
-    background-image: url("Rectangle4.png");
+    background-image: url("assets/Rectangle4.png");
 }
 .security-code::before {
-    content: url("Vector562.png");
+    content: url("assets/Vector562.png");
     position: absolute;
     top: 6px;
     right: 64.72px;
     z-index: 1;
 }
 .security-code::after {
-    content: url("Ellipse612.png");
+    content: url("assets/Ellipse612.png");
     position: absolute;
     top: 278px;
     right: 24.22px;
@@ -361,6 +364,7 @@ header {
 }
 hr {
     height: 2px;
+    width: auto;
     background-color: #9C69E2;
     border: none;
     margin-bottom: 100px;
@@ -392,11 +396,13 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 93px;
+    font-family: "Avenir", "Century Gothic", sans-serif;
 }
 .links-row {
     padding-bottom: 67px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
 }
 .company-name {
@@ -405,6 +411,7 @@ hr {
 }
 .adress {
     font-size: 16px;
+    font-weight: 550;
     padding-bottom: 10px;
 }
 .info {
@@ -454,21 +461,21 @@ hr {
     margin-top: 16px;
 }
 .chatbox::before {
-    content: url("Ellipse70.png");
+    content: url("assets/Ellipse70.png");
     position: absolute;
     z-index: 2;
     top: 10px;
     left: 22px;
 }
 .chat::after {
-    content: url("Ellipse70.png");
+    content: url("assets/Ellipse70.png");
     position: absolute;
     z-index: 2;
     top: 10px;
     left: 28px;
 }
 .chat::before {
-    content: url("Ellipse70.png");
+    content: url("assets/Ellipse70.png");
     position: absolute;
     z-index: 2;
     top: 10px;

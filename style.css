@@ -364,7 +364,7 @@ nav {
 }
 hr {
   height: 2px;
-  width: auto;
+  width: 100vw;
   background-color: #9c69e2;
   border: none;
   margin-bottom: 100px;
